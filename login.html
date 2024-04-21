@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+    <style>
+        
+        *{
+            text-align: center;
+        }
+
+        #wel{
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            color: springgreen;
+        }
+
+        body{
+            background-image: url("login.jpg");
+        }
+    </style>
+
+</head>
+<body>
+    
+    <nav>
+        <h1><a href="./home.html">Home</a></h1>
+        <h1><a href="./project.html">Project Details</a></h1>
+        <h1><a href="./About.html">About</a></h1>
+        <h1><a href="./Contact.html">Contact Us</a></h1>
+    </nav>
+
+    <form action="/login" method="get" align="center">
+        <h1 align="center">LOGIN PAGE</h1>
+
+        <div>
+            <label for="name/email">Name/Email:</label>
+            <input type="text" id="name/email" name="name/email" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" required>
+        </div>
+        <br>
+
+        <div>
+            <input style="font-size: 25px; " type="button" value="Submit">
+        </div><br>
+
+        <h1 id="wel">WELCOME BACK USER</h1>
+
+        <h1>New to Website?<a href="./signup.html">register.</a></h1>
+    </form>
+</body>
+</html>

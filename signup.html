@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+    <style>
+        
+        *{
+            text-align: center;
+        }
+
+        form{
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        body{
+            background-image: url("login1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <nav>
+        <h1><a href="./home.html">Home</a></h1>
+        <h1><a href="./project.html">Project Details</a></h1>
+        <h1><a href="./About.html">About</a></h1>
+        <h1><a href="./Contact.html">Contact Us</a></h1>
+    </nav>
+
+    <form action="/register" method="post" align="center">
+        <h1 align="center">SIGNUP PAGE</h1>
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="text" name="phone" id="phone">
+        </div>
+        <br>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="password">Confirm Password:</label>
+            <input type="text" id="password" name="password" required>
+        </div>
+        <br>
+
+        <div>
+            <input style="font-size: 25px; " type="button" value="Submit">
+        </div>
+        
+        <h1>Already have an account?<a href="./login.html">login.</a></h1>
+    </form>
+</body>
+</html>
